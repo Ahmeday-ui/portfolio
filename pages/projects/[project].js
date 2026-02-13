@@ -139,7 +139,7 @@ export default function ProjectDetail({ slug }) {
         <Navigation />
         <div className="pt-32 pb-20 section-container text-center">
           <h1 className="text-4xl font-bold mb-4">Project Not Found</h1>
-          <p className="text-text-secondary mb-8">The project you're looking for doesn't exist.</p>
+          <p className="text-text-secondary mb-8">The project you&apos;re looking for doesn&apos;t exist.</p>
           <Link href="/projects" className="btn-primary">
             Back to Projects
           </Link>

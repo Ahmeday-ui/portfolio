@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 export default function Hero() {
@@ -38,7 +39,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="fixed bottom-24 right-10 w-64 h-64 rounded-full shadow-2xl border-8 border-accent bg-gradient-to-br from-accent via-blue-500 to-accent overflow-hidden z-20 flex items-center justify-center animate-pulse"
       >
-        <img src="/photo d'identité.png" alt="Ahmed Ayoubi" className="w-full h-full object-cover rounded-full border-8 border-white shadow-xl" />
+  <Image src="/photo d'identité.png" alt="Ahmed Ayoubi" width={256} height={256} className="w-full h-full object-cover rounded-full border-8 border-white shadow-xl" />
       </motion.div>
 
       <motion.div
@@ -65,7 +66,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-xl text-text-secondary leading-relaxed max-w-2xl"
         >
-          Je m'appelle Ahmed AYOUBI, ingénieur en Intelligence Artificielle et Data Scientist. Passionné par l’innovation et l’impact sociétal de l’IA, j’ai mené des projets ambitieux pour la prévention des risques, l’analyse de données médicales, la modélisation prédictive et la gestion de données massives. Mon parcours allie rigueur scientifique, créativité, et volonté de transformer les défis complexes en solutions concrètes. Curieux, persévérant et orienté résultats, je vise à contribuer à des projets d’envergure, en mettant l’IA au service de l’humain et de la société. “L’Intelligence Artificielle au service de l’humain et de la société”
+          Je m&apos;appelle Ahmed AYOUBI, ingénieur en Intelligence Artificielle et Data Scientist. Passionné par l’innovation et l’impact sociétal de l’IA, j’ai mené des projets ambitieux pour la prévention des risques, l’analyse de données médicales, la modélisation prédictive et la gestion de données massives. Mon parcours allie rigueur scientifique, créativité, et volonté de transformer les défis complexes en solutions concrètes. Curieux, persévérant et orienté résultats, je vise à contribuer à des projets d’envergure, en mettant l’IA au service de l’humain et de la société. “L’Intelligence Artificielle au service de l’humain et de la société”
         </motion.p>
 
         {/* Tech Stack Preview */}

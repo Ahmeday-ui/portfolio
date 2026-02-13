@@ -99,10 +99,10 @@ export default function Contact() {
           className="space-y-4 max-w-2xl"
         >
           <h1 className="text-5xl sm:text-6xl font-bold">
-            Let's <span className="gradient-text">Connect</span>
+            Let&apos;s <span className="gradient-text">Connect</span>
           </h1>
           <p className="text-text-secondary text-xl">
-            I'm always interested in discussing research, projects, and innovative ideas. Reach out to start a conversation.
+            I&apos;m always interested in discussing research, projects, and innovative ideas. Reach out to start a conversation.
           </p>
         </motion.div>
       </section>
@@ -249,7 +249,7 @@ export default function Contact() {
 
               {/* Note */}
               <motion.p variants={itemVariants} className="text-text-secondary text-sm text-center">
-                I'll get back to you as soon as possible. Thank you for reaching out!
+                I&apos;ll get back to you as soon as possible. Thank you for reaching out!
               </motion.p>
             </motion.form>
           </div>
@@ -265,7 +265,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="space-y-12"
         >
-          <h2 className="section-title">Let's Work Together</h2>
+          <h2 className="section-title">Let&apos;s Work Together</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[

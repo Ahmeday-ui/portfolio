@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
@@ -84,7 +85,7 @@ export default function Experiences() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {experiences.map((exp, idx) => (
             <div key={idx} className="bg-secondary bg-opacity-30 rounded-xl p-6 shadow-lg flex items-center gap-6">
-              <img src={exp.logo} alt={exp.company} className="w-20 h-20 object-contain rounded-full border-4 border-accent bg-white shadow-md" />
+              <Image src={exp.logo} alt={exp.company} width={80} height={80} className="w-20 h-20 object-contain rounded-full border-4 border-accent bg-white shadow-md" />
               <div>
                 <h2 className="text-2xl font-bold mb-1">{exp.title}</h2>
                 <p className="text-accent font-semibold mb-1">{exp.company} - {exp.location}</p>

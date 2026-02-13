@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 export default function ProjectCard({ 
@@ -43,9 +44,11 @@ export default function ProjectCard({
       {/* Image */}
       {image && (
         <div className="mb-4 rounded-lg h-40 bg-black bg-opacity-30 overflow-hidden flex items-center justify-center border border-slate-700">
-          <img 
+          <Image 
             src={image} 
             alt={title}
+            width={320}
+            height={160}
             className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
           />
         </div>
@@ -88,7 +91,7 @@ export default function ProjectCard({
             onClick={() => setShowRequest(true)}
             className="text-accent hover:text-accent-dark font-semibold flex items-center gap-2 transition-colors border border-accent px-3 py-2 rounded-lg bg-secondary"
           >
-            Demander l'accès au rapport
+            Demander l&apos;accès au rapport
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
@@ -97,7 +100,7 @@ export default function ProjectCard({
             <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
               <div className="bg-primary p-8 rounded-xl shadow-2xl w-full max-w-md relative">
                 <button onClick={() => setShowRequest(false)} className="absolute top-2 right-2 text-accent text-2xl">&times;</button>
-                <h3 className="text-xl font-bold mb-4 text-accent">Demande d'accès au rapport</h3>
+                <h3 className="text-xl font-bold mb-4 text-accent">Demande d&apos;accès au rapport</h3>
                 {sent ? (
                   <div className="text-green-500 font-semibold">Votre demande a été envoyée !</div>
                 ) : (

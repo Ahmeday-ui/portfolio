@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 import Navigation from '../components/Navigation'
 import Hero from '../components/Hero'
@@ -94,9 +95,9 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-center pt-8"
           >
-            <a href="/projects" className="btn-primary">
+            <Link href="/projects" className="btn-primary">
               View All Projects
-            </a>
+            </Link>
           </motion.div>
         </div>
       </section>
@@ -164,15 +165,15 @@ export default function Home() {
         >
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-3">
-              Let's Collaborate
+              Let&apos;s Collaborate
             </h2>
             <p className="text-text-secondary text-lg">
               Interested in discussing research, projects, or opportunities? Get in touch.
             </p>
           </div>
-          <a href="/contact" className="btn-primary inline-block">
+          <Link href="/contact" className="btn-primary inline-block">
             Start a Conversation
-          </a>
+          </Link>
         </motion.div>
       </section>
 

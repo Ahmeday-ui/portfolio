@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Head from 'next/head'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
@@ -103,7 +104,7 @@ export default function About() {
                 Présentation
               </h2>
               <p className="text-text-secondary leading-relaxed">
-                Je m'appelle Ahmed AYOUBI, ingénieur en Intelligence Artificielle et Data Scientist passionné par l’innovation et l’impact sociétal de l’IA. Fort d’une expertise en Machine Learning, Deep Learning, NLP, Computer Vision et Data Engineering, j’ai mené des projets ambitieux pour la prévention des risques, l’analyse de données médicales, la modélisation prédictive et la gestion de données massives. Mon parcours allie rigueur scientifique, créativité, et volonté de transformer les défis complexes en solutions concrètes. Curieux, persévérant et orienté résultats, je vise à contribuer à des projets d’envergure, en mettant l’IA au service de l’humain et de la société. “L’Intelligence Artificielle au service de l’humain et de la société”
+                Je m&apos;appelle Ahmed AYOUBI, ingénieur en Intelligence Artificielle et Data Scientist passionné par l’innovation et l’impact sociétal de l’IA. Fort d’une expertise en Machine Learning, Deep Learning, NLP, Computer Vision et Data Engineering, j’ai mené des projets ambitieux pour la prévention des risques, l’analyse de données médicales, la modélisation prédictive et la gestion de données massives. Mon parcours allie rigueur scientifique, créativité, et volonté de transformer les défis complexes en solutions concrètes. Curieux, persévérant et orienté résultats, je vise à contribuer à des projets d’envergure, en mettant l’IA au service de l’humain et de la société. “L’Intelligence Artificielle au service de l’humain et de la société”
               </p>
             </motion.div>
 
@@ -143,7 +144,7 @@ export default function About() {
             className="flex items-center justify-center"
           >
             <div className="w-full aspect-square rounded-2xl bg-gradient-to-br from-accent via-blue-500 to-accent bg-opacity-20 border border-accent border-opacity-30 flex items-center justify-center overflow-hidden">
-              <img src="/photo d'identité.png" alt="Ahmed Ayoubi" className="w-3/4 h-3/4 object-cover rounded-full border-8 border-white shadow-2xl bg-white p-2" />
+              <Image src="/photo d'identité.png" alt="Ahmed Ayoubi" width={300} height={300} className="w-3/4 h-3/4 object-cover rounded-full border-8 border-white shadow-2xl bg-white p-2" />
             </div>
           </motion.div>
         </div>
