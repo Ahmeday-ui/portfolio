@@ -70,10 +70,19 @@ Bienvenue dans le portfolio complet de projets d'Ahmed Ay. Cette page sert de gu
 
 ## 📊 Rapports et Analyses Supplémentaires
 
+### ⚠️ Important : Fichiers Volumineux
+
+Les fichiers HTML et PDF suivants **ne peuvent pas être hébergés directement sur GitHub** en raison des limitations de taille (max 100 MB par fichier). Ils sont **archivés localement** et documentés via ce manifeste.
+
+👉 **Consultez le manifeste complet** : [`SUPPLEMENTARY_FILES_MANIFEST.md`](./SUPPLEMENTARY_FILES_MANIFEST.md)
+
+---
+
 ### 1. Analyse de Survie — JBKP
 **A.AYOUBI_JBKP_ANALYSEDESURVIE.html**
 
 - **Format** : Rapport HTML interactif (~64 MB)
+- **Stockage** : Local dans `public/Projects/`
 - **Contenu** : 
   - Exploration de données de survie
   - Courbes de Kaplan-Meier
@@ -81,6 +90,7 @@ Bienvenue dans le portfolio complet de projets d'Ahmed Ay. Cette page sert de gu
   - Tests de comparaison de groupes
   - Diagnostics et vérification d'hypothèses
 - **README** : `A.AYOUBI_JBKP_ANALYSEDESURVIE_README.md`
+- **Détails** : Voir [`SUPPLEMENTARY_FILES_MANIFEST.md`](./SUPPLEMENTARY_FILES_MANIFEST.md)
 
 ---
 
@@ -88,6 +98,7 @@ Bienvenue dans le portfolio complet de projets d'Ahmed Ay. Cette page sert de gu
 **AYOUBI_CHOUKOUKOU_Projet-Transverses-NBA.html**
 
 - **Format** : Rapport HTML interactif (~3 MB)
+- **Stockage** : Local dans `public/Projects/`
 - **Contenu** :
   - Exploration de données NBA
   - Statistiques descriptives par poste/équipe
@@ -95,6 +106,7 @@ Bienvenue dans le portfolio complet de projets d'Ahmed Ay. Cette page sert de gu
   - Visualisations multidimensionnelles
   - Insights et patterns découverts
 - **README** : `AYOUBI_CHOUKOUKOU_Projet-Transverses-NBA_README.md`
+- **Détails** : Voir [`SUPPLEMENTARY_FILES_MANIFEST.md`](./SUPPLEMENTARY_FILES_MANIFEST.md)
 
 ---
 
@@ -102,6 +114,7 @@ Bienvenue dans le portfolio complet de projets d'Ahmed Ay. Cette page sert de gu
 **AYOUBI Ahmed -Rapport de stage Master 1.pdf**
 
 - **Format** : Document PDF professionnel (~29 MB)
+- **Stockage** : Local dans `public/Projects/`
 - **Contenu** :
   - Présentation de l'organisme
   - Missions et responsabilités
@@ -110,6 +123,7 @@ Bienvenue dans le portfolio complet de projets d'Ahmed Ay. Cette page sert de gu
   - Apprentissages professionnels
   - Réflexions et perspectives futures
 - **README** : `Rapport_de_stage_Master_1_README.md`
+- **Détails** : Voir [`SUPPLEMENTARY_FILES_MANIFEST.md`](./SUPPLEMENTARY_FILES_MANIFEST.md)
 
 ---
 
