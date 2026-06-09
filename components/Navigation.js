@@ -13,6 +13,7 @@ export default function Navigation() {
   { label: 'Skills', href: '/skills' },
   { label: 'Projects', href: '/projects' },
   { label: 'Research', href: '/research' },
+  { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
   ]
 
